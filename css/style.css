@@ -37,7 +37,7 @@ nav a:focus {
 first div in the grid  and place it in the grid. */
 .container > div:first-child {
      grid-column: 1 / -1; /* Spans all columns */
-     background-image: url('/images/header.jpg');
+     background-image: url('../images/header.jpg');
      background-attachment: fixed; /* Parallax effect */     
      background-position: center;  /* Parallax effect */
      background-repeat: no-repeat; /* Parallax effect */
